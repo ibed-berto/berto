@@ -114,7 +114,7 @@ var labelArray = [],
                 outerHeight = $list.first().outerHeight(true);
             // Container & list height setup
             $container.css({
-                "height": outerHeight * $list.length + 100,
+                "height": outerHeight * $list.length * innerHeight,
                 "overflow": "hidden"
             });
             $list.css({
